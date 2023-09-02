@@ -8,8 +8,8 @@ import log from '../assets/log.png'
 
 export default function LeftSide() {
   return (
-       <div className="flex">
-          <nav className='flex flex-col w-64 h-screen px-4 py-8 overflow-y-auto border-r'>
+       <div className="flex overflow-y-auto h-screen ">
+          <nav className='flex flex-col w-64  px-4 py-8 border-r'>
               <div className='p-4 pb-2 flex justify-between items-center'>
               <img className="W-32"src={log} width="25px" height="25px"/>
              </div>
@@ -25,7 +25,7 @@ export default function LeftSide() {
                 <li className='relative h-14 w-20 pl-6 text-right'><a  href='' className='absolute left-0 '><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" className="w-6 h-6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0zM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632z"/></svg></a>Profile</li>
                 <li className='relative h-14 w-20 pl-6 text-right'><a className='absolute left-0 '><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-width="1.5" className="w-6 h-6" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0zm0 0h-.375M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0z"/></svg></a>More</li>
              </ul>
-             <button className='bg-blue-500  hover:bg-blue-300 text-center text-xl text-white rounded-full  p-2'>Post</button>   
+             <button className='bg-blue-500  hover:bg-blue-300 text-center text-xl text-white rounded-full  p-2 '>Post</button>   
           </nav>
 
        </div>

@@ -4,9 +4,9 @@
 
 import Home from './components/Home'
 
-// import LeftSide from './components/LeftSide'
-// import RightSide from './components/RightSide'
-import Profile from './pages/Profile'
+import LeftSide from './components/LeftSide'
+import RightSide from './components/RightSide'
+// import Profile from './pages/Profile'
 
 
 
@@ -16,11 +16,11 @@ function App() {
   return (
     <>
 
-    {/* <Routes>
-    <Route ></Route>
-    </Routes> */}
-    <div className="flex justify-center">
+
+    <div className="flex h-screen">
+      <LeftSide></LeftSide>
       <Home></Home>
+      <RightSide></RightSide>
     </div>
     </>
   )
